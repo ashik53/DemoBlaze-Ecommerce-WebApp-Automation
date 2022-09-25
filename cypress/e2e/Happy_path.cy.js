@@ -10,7 +10,7 @@ describe('happy_path', () => {
     })
 
 
-    it('Buy at least one item from each category', function () {
+    it('Verification of buying at least one item from each category', function () {
         //find out how to get dynamic elements 
         //buy an item from Phones category
         //buying first item
@@ -66,7 +66,7 @@ describe('happy_path', () => {
 
     })
 
-    it("Verify prices on cart", function () {
+    it("Verification of the prices on cart", function () {
         //navigate to the cart
         cy.get(':nth-child(4) > .nav-link').click()
 
@@ -101,7 +101,7 @@ describe('happy_path', () => {
 
     })
 
-    it("final order", function () {
+    it("Final order", function () {
         cy.get(':nth-child(4) > .nav-link').click()
         //Final order
 
